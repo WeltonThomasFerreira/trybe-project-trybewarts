@@ -35,38 +35,114 @@
     </header>
     <main>
       <form action="" id="evaluation-form">
-        <div>
-          <input type="text" name="name" id="input-name" placeholder="Nome" />
-          <input
-            type="text"
-            name="lastname"
-            id="input-lastname"
-            placeholder="Sobrenome"
-          />
-        </div>
-        <div>
-          <input type="email" name="email" id="input-email" placeholder="Email" />
-          <select name="house" id="house">
-            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" id="pytherina-house">Pytherina</option>
-          </select>
-        </div>
-        <div id="family">
-          <label for="family" id="label-family">
-            Qual sua família?
-          </label>
-          <label for="family">
-            <input type="radio" name="family" value="Frontend"> Frontend
-          </label>
-          <label for="family">
-            <input type="radio" name="family" value="Backend"> Backend
-          </label>
-          <label for="family">
-            <input type="radio" name="family" value="FullStack"> FullStack
-          </label>
-        </div>
+        <fieldset>
+          <div>
+            <input type="text" name="name" id="input-name" placeholder="Nome" />
+            <input
+              type="text"
+              name="lastname"
+              id="input-lastname"
+              placeholder="Sobrenome"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="input-email"
+              placeholder="Email"
+            />
+            <select name="house" id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </div>
+        </fieldset>
+        <hr />
+        <fieldset id="second-fieldset">
+          <div id="family">
+            <label for="family" id="label-family"> Qual sua família? </label>
+            <label for="family">
+              <input type="radio" name="family" value="Frontend" /> Frontend
+            </label>
+            <label for="family">
+              <input type="radio" name="family" value="Backend" /> Backend
+            </label>
+            <label for="family">
+              <input type="radio" name="family" value="FullStack" /> FullStack
+            </label>
+          </div>
+          <div id="content">
+            <label for="" id="label-content">
+              Qual conteúdo você está com mais vontade de aprender?
+            </label>
+            <div>
+              <label for="">
+                HoFs
+                <input type="checkbox" name="" class="subject" value="HoFs" />
+              </label>
+              <label for="">
+                Jest
+                <input type="checkbox" name="" class="subject" value="Jest" />
+              </label>
+              <label for="">
+                Promises
+                <input
+                  type="checkbox"
+                  name=""
+                  class="subject"
+                  value="Promises"
+                />
+              </label>
+              <label for="">
+                React
+                <input type="checkbox" name="" class="subject" value="React" />
+              </label>
+              <label for="">
+                SQL
+                <input type="checkbox" name="" class="subject" value="SQL" />
+              </label>
+              <label for="">
+                Python
+                <input type="checkbox" name="" class="subject" value="Python" />
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <hr />
+        <fieldset>
+          <div id="ratting">
+            <label for="rate" id="label-rate">
+              Como você avalia a Trybewarts?
+            </label>
+            <div id="ratting-buttons">
+              <input type="radio" name="rate" value="1"/>1
+              <input type="radio" name="rate" value="2"/>2
+              <input type="radio" name="rate" value="3"/>3
+              <input type="radio" name="rate" value="4"/>4
+              <input type="radio" name="rate" value="5"/>5
+              <input type="radio" name="rate" value="6"/>6
+              <input type="radio" name="rate" value="7"/>7
+              <input type="radio" name="rate" value="8"/>8
+              <input type="radio" name="rate" value="9"/>9
+              <input type="radio" name="rate" value="10"/>10
+            </div>
+          </div>
+          <div>
+            <label for="commentarea" class="textarea"
+              >Deixe seu comentário:</label
+            >
+            <textarea
+              name="commentarea"
+              id="commentarea"
+              cols="30"
+              rows="10"
+              maxlength="500"
+            ></textarea>
+          </div>
+        </fieldset>
       </form>
       <img
         src="images/trybewarts-colored.svg"
