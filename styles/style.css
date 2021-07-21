@@ -1,3 +1,7 @@
+* {
+  padding: 0px;
+  margin: 0;
+}
 body {
   font-family: Roboto, sans-serif;
 }
@@ -6,10 +10,35 @@ body {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
+  padding: 0px 2%;
+
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-header-logo {
+  width: 7%;
 }
 
 .trybewarts-login {
   display: flex;
   align-items: center;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
 }
