@@ -15,7 +15,7 @@
 - Construir páginas que alteram o seu layout de acordo com a orientação da tela.
 
 ## Desenvolvimento
-uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre a escola. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling.
+Uma [página](https://weltonthomasferreira.github.io/trybe-project-trybewarts/) de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre a escola. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling.
 
 ![Imagem do site desenvolvido](./readme/images/trybewarts-site.png "Site")
 
